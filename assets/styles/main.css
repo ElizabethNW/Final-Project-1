@@ -1,3 +1,23 @@
+<!-- General Styles -->
+
+
+<!-- Form -->
+form div{
+    margin-bottom: 1rem;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: #1f3c88;
+}
+
+
+
+
+
+
 footer{
   margin-top: 3rem;  
   padding-top: 2rem;
