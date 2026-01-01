@@ -48,6 +48,7 @@ body{
     background-color: #f7faff;
     color: #1a1a1a;
     padding: 1rem
+   
 }
 
 h1, h2{
@@ -67,12 +68,15 @@ h2{
 p{
     margin-bottom: 1rem;
     color: #2a2a2a;
-    max-width:fit-content;
+    max-width: 60ch;
 }
 
 section{
     margin-bottom: 3rem;
 }
+
+
+
 
 
 form div{
@@ -138,3 +142,39 @@ footer img{
     display: block;
     filter: brightness(0) saturate(100%) invert(20%) sepia(20%) hue-rotate(190deg) saturate(300%) brightness(90%);
 }
+
+
+#home {
+  background-image: url("../images/petals.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  padding: 4rem 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+#home::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(31, 60, 136, 0.25); 
+  backdrop-filter: blur(2px);
+  z-index: 0;
+}
+
+#home > * {
+  position: relative;
+  z-index: 1;
+}
+
+#home h1,
+#home p {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+
