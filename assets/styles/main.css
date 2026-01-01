@@ -1,0 +1,18 @@
+footer{
+  margin-top: 3rem;  
+  padding-top: 2rem;
+  border-top: 1px solid #c7d4ec;
+}
+
+footer ul{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+footer img{
+    height: 30px;
+    width: 30px;
+    display: block;
+    filter: brightness(0) saturate(100%) invert(20%) sepia(20%) hue-rotate(190deg) saturate(300%) brightness(90%);
+}
